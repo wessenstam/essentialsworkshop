@@ -1,4 +1,4 @@
-.. title:: Nutanix Essentials Bootcamp
+.. title:: Nutanix Essentials Workshop
 
 .. toctree::
   :maxdepth: 2
