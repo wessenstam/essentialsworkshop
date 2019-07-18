@@ -25,13 +25,13 @@ Create a Custom Dashboard
 
 Dashboards can also be customized.
 
-#. #. In **Prism Central > :fa:`fa-navicon` > Dashboard**, or click the **Home X**
+#. #. In **Prism Central >** :fa:`align-justify` **> Dashboard**, or click the **Home X**
 
 The main dashboard is the first dashboard presented when the system first installed.
 
 #. This dashboard can be customized as well, but instead we will each create new dashboard.
 
-#. Click on **:fa: `fa-gear` Manage Dashboards** to open the Manage Dashboards window.
+#. Click on :fa:`cog` **Manage Dashboards** to open the Manage Dashboards window.
 
 #. Once there click on **+ New Dashboard**
 
@@ -52,7 +52,22 @@ The main dashboard is the first dashboard presented when the system first instal
 #. From the list of available Widgets on the left hand side, notice there are three types of Widgets:
 
 - CUSTOM WIDGETS
+
+.. -----------------------Begin---------------------------------------------
+.. Remove this in if running on version 5.11
+
 - CLUSTER WIDGETS
+
+.. -----------------------End---------------------------------------------
+
+.. -----------------------Begin---------------------------------------------
+.. Add this in if running on version 5.11
+.. - VIRTUAL INFRASTRUCTURE WIDGETS
+.. - HARDWARE WIDGETS
+.. - ACTIVITY WIDGETS
+.. - OPERATIONS WIDGETS
+.. -----------------------End---------------------------------------------
+
 - APP WIDGETS
 
 #. Choose any widget that may interest you in the **CUSTOM WIDGETS** section, and note that a custom set of parameters appears on the right hand side to specify.
@@ -61,7 +76,19 @@ The main dashboard is the first dashboard presented when the system first instal
 
 .. figure:: images/510PC4.png
 
+.. -----------------------Begin---------------------------------------------
+.. Remove this in if running on version 5.11
+
 #. Next select another widget, now from the **CLUSTER WIDGETS** list. This time click on **Or, Add & Return to Dashboard.** to return to your newly created dashboard.
+
+.. -----------------------End---------------------------------------------
+
+.. -----------------------Begin---------------------------------------------
+.. Add this in if running on version 5.11
+
+.. #. Next select another widget, now from the **HARDWARE WIDGETS** list. This time click on **Or, Add & Return to Dashboard.** to return to your newly created dashboard.
+
+.. -----------------------End---------------------------------------------
 
 .. note::
 
@@ -80,7 +107,7 @@ Such reports can include resource consumption, abnormal behavior, and other valu
 
 These reports can be manually generated or they can be automated from Prism Central to be sent out via email when it’s most convenient.
 
-#. In **Prism Central > :fa:`fa-navicon` > Operations > Reports**.
+#. In **Prism Central >** :fa:`align-justify` **> Operations > Reports**.
 
 #. There you will see the two pre-defined reports available for you to use immediately:
 
@@ -93,11 +120,23 @@ These reports can be manually generated or they can be automated from Prism Cent
 
 #. Select **Cluster Efficiency Summary**, then click **Run** from the **Actions** drop-down menu.
 
+.. -----------------------Begin---------------------------------------------
+.. Remove the below
+
 .. figure:: images/monitoring_01.png
+
+.. -----------------------End---------------------------------------------
+
+.. -----------------------Begin---------------------------------------------
+.. Add this when running 5.11
+
+.. .. figure:: images/monitoring_01a.png
+
+.. -----------------------End---------------------------------------------
 
 #. Next, fill out the following fields and click **Run** from the **Actions** dropdown:
 
-- **Report instance Name** - *initials* - Cluster Efficiency 
+- **Report instance Name** - *initials* - Cluster Efficiency
 - **Time Period for Report** - Last 24 Hours
 
 #. Click **Run**.
@@ -115,10 +154,24 @@ These reports can be manually generated or they can be automated from Prism Cent
 
 #. Once the reports are complete, select each report, and do the following:
 
+.. -----------------------Begin---------------------------------------------
+.. Remove this when running 5.11
+
 #. Click **View Instances.** from the **Actions** drop-down menu.
 
 - To view the report in a separate tab, click the name of the report.
 - To download the report, select its check box, then click **Download** at the upper right of the screen.
+
+.. -----------------------End---------------------------------------------
+
+.. -----------------------Begin---------------------------------------------
+.. Add this when running 5.11
+
+.. #. Click the name of the report to see the instances that have been created/ran.
+
+.. - To download the report click on the **PDF** or **CSV** (defined in the previous steps).
+
+.. -----------------------End---------------------------------------------
 
 #. Review the contents of the reports you created in this exercise.
 

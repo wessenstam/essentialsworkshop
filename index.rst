@@ -1,4 +1,4 @@
-.. title:: Nutanix Essentials Workshop
+admin .. title:: Nutanix Essentials Workshop
 
 .. toctree::
   :maxdepth: 2
@@ -77,6 +77,10 @@ What's New
 
 - Workshop updated for the following software versions:
     - AOS & PC 5.10.x
+.. --------------------------------------------------------------------
+.. Put this in if running on version 5.11
+..  - AOS & PC 5.11.x
+.. --------------------------------------------------------------------
 
 - Optional Lab Updates:
 
@@ -254,3 +258,10 @@ Nutanix Version Info
 - **AHV Version** - AHV 20170830.185 (5.9+/5.10+)
 - **AOS Version** - 5.10.2
 - **PC Version** - 5.10.2
+
+.. --------------------------------------------------------------------
+.. Put this in if running on version 5.11.x and remove the Above three lines
+..  - **AOS version** - 5.11.x
+..  - **AHV version** - AHV 20170830.301
+..  - **PC version** - 5.11.x
+.. --------------------------------------------------------------------
