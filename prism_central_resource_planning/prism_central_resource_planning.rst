@@ -19,8 +19,19 @@ Capacity Runway
 
 Use Prism Central’s Capacity Runway feature to learn about cluster resource planning and recommendations.
 
+.. -----------------------Begin---------------------------------------------
+.. Put this in if running on version 5.11
+
+.. #. In **Prism Central >** :fa:`align-justify` **> Operations > Planning > Capacity Runway**
+
+.. -----------------------End---------------------------------------------
+
+.. -----------------------Begin---------------------------------------------
+.. Remove the following line
+
 #. In **Prism Central > Planning > Capacity Runway**.
 
+.. -----------------------End---------------------------------------------
 - Note the runway summaries showing the days left for each cluster.
 - How long does the current cluster has before it runs out of memory, CPU, and storage?
 
@@ -43,17 +54,44 @@ What If Planning
 
 #. Push the initial guess of the capacity planning task to add hypothetical workloads and see how the prediction changes.
 
+.. -----------------------Begin---------------------------------------------
+.. Put this in if running on version 5.11
+
+.. #. In **Prism Central >** :fa:`align-justify` **> Operations > Planning > Scenarios**, then click **New Scenario**
+
+.. -----------------------End---------------------------------------------
+
+.. -----------------------Begin---------------------------------------------
+.. Remove the following line
+
 #. In **Prism Central > Planning > Scenarios**, then click **New Scenario**.
+
+.. -----------------------End---------------------------------------------
 
 #. Next, fill out the following fields:
 
+.. -----------------------Begin---------------------------------------------
+.. Change the following line
 - **Cluster** - Select a Cluster Model
+.. into - **CLUSTER** - Select a cluster of your choice
+.. -----------------------End---------------------------------------------
 - **Target** - 6 months
+
+.. -----------------------Begin---------------------------------------------
+.. Remove the following line
 - **Vendor Type** - Nutanix
+.. -----------------------End---------------------------------------------
 
 #. Now lets add a 150 seat Citrix XenDesktop workload..
 
+.. -----------------------Begin---------------------------------------------
+.. Change the following line
+
 #. Click **+ Add Workload**.
+
+.. into
+.. #. Click **Workload Add/Adjust**
+.. -----------------------End---------------------------------------------
 
 #. Next, fill out the following fields and click **Add Workload**:
 
@@ -68,7 +106,7 @@ What If Planning
 
 #. **Save** this scenario.
 
-#. #. Note the **Resources** section, which shows the existing hardware.
+#. Note the **Resources** section, which shows the existing hardware.
 
 #. Click **Recommend** to see a suggested NX configuration to extend the runway.
 

@@ -63,6 +63,8 @@ admin .. title:: Nutanix Essentials Workshop
   appendix/glossary
   appendix/basics
   taskman/taskman
+  tools_vms/linux_tools_vm.rst
+  tools_vms/windows_tools_vm.rst
 
 .. _getting_started:
 
